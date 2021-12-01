@@ -22,7 +22,7 @@ export default {
   name: 'contact',
   data() {
     return {
-      email: 'hello@samrose.me',
+      email: 'lahmidimoumen@gmail.com',
     };
   },
   mounted() {

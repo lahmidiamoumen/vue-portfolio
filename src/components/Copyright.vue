@@ -3,12 +3,13 @@
     <div class="container">
       <div class="content has-text-centered">
         <p>
-          © 2017 Sam Rose, made with ❤️ and ☕️
+          © 2021 Numidia
         </p>
         <p>
           <a class="icon"
-            v-for="item in social"
+            v-for="(item,index) in social"
             :href="item.link"
+            :key="index"
             target="_blank"
             rel="noopener">
             <b-icon :icon="item.icon"></b-icon>
@@ -27,23 +28,23 @@ export default {
       social: [
         {
           icon: 'linkedin',
-          link: 'https://linkedin.com/in/samrose3',
+          link: '#',
         },
         {
           icon: 'twitter',
-          link: 'https://twitter.com/_samrose3_',
+          link: '#',
         },
         {
           icon: 'github',
-          link: 'https://github.com/samrose3',
+          link: '#',
         },
         {
           icon: 'gitlab',
-          link: 'https://gitlab.com/samrose3',
+          link: '#',
         },
         {
           icon: 'codepen',
-          link: 'https://codepen.io/samrose3',
+          link: '#',
         },
       ],
     };

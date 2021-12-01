@@ -33,8 +33,8 @@ export default {
   },
   data() {
     return {
-      title: 'Portfolio',
-      subtitle: 'making pretty things with pretty code',
+      title: 'The Numidia Team',
+      subtitle: 'A talented software team at your fingertips',
       isPrimary: true,
     };
   },

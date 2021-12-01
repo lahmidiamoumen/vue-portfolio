@@ -22,7 +22,6 @@ Vue.use(VueScrollTo, {
 });
 
 window.sr = ScrollReveal();
-window.cl = new cloudinary.Cloudinary({ cloud_name: 'samrose3', secure: true });
 Vue.component('separator', Separator);
 Vue.prototype.moment = moment;
 

@@ -1,5 +1,5 @@
 <template>
-  <ul class="project-list">
+  <ul class="project-list" style="height: 300px">
     <li class="project"
       v-for="(project, index) in projects"
       :key="index">
@@ -46,7 +46,8 @@ export default {
 @import '~bulma/sass/utilities/mixins';
 
 .project-list {
-  padding: 1.5rem 0;
+  margin: 0 auto;
+  padding: 2.5rem 0;
 
   @include mobile {
       padding: 1.5rem 1rem;

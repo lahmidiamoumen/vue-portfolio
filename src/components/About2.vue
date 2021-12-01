@@ -2,16 +2,15 @@
   <section id="about" class="section">
     <div class=" has-text-centered">
       <div class="image avatar">
-        <img src="../assets/img/nono.jpg">
+        <img src="https://lahmidiamoumen.github.io/img/moune_edit.jpg">
       </div>
-      <h2 class="title is-2">Nuno C. AMIAR</h2>
+      <h2 class="title is-2">Lahmidi A.mounmen</h2>
       <separator></separator>
       <div class="about-text block">
-        <p>Born and raised in Portugal, I attended an unfinished course on physics in the best Portuguese University, IST. Now I’m permanently working in Algeria and well familiarized with the country's values.
+        <p>Master degree on Computer Sciences University of Boumerdes. I'm dedicated to promoting the discipline of delivering quality software.</p>
         <br>
         <br>
-        <p>My main interests are electronic vote and its implications in  political governance.</p>
-          Specialized in decentralised software stack and identity management – Web 3.0.
+        <p>My domain of interests are blockchain and machine learning technologies and there applications in e-governance and healthcare.</p>
       </div>
       
     </div>

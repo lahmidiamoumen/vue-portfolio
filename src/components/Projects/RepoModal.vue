@@ -8,7 +8,7 @@
             <figure class="image">
             <img :src="repoImgUrl"
                 :srcset="`${repoImgUrl} 640w`"
-                :alt="repo.name"></img>
+                :alt="repo.name"/>
             </figure>
           </div>
           <div class="card-content">

@@ -2,9 +2,9 @@
   <section id="skills" class="section">
     <div class="container">
       <div class="block has-text-centered">
-        <h2 class="title is-2">Skills</h2>
+        <h2 class="title is-2">Technologies</h2>
         <separator></separator>
-        <h5 class="subtitle is-5">Technologies I work in most frequently.</h5>
+        <h5 class="subtitle is-5">Flexible and High Performance</h5>
       </div>
       <div class="skills columns is-multiline is-mobile">
         <div class="column is-half-mobile is-one-third-tablet is-one-quarter-desktop"
@@ -16,7 +16,7 @@
               rel="noopener"
               :href="skill.url"
               :title="skill.name">
-              <img :src="skill.image" :alt="skill.name">
+              <img style=" height: 100px;" :src="skill.image" :alt="skill.name">
             </a>
           </div>
         </div>

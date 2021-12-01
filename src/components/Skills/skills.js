@@ -1,20 +1,31 @@
 import * as images from '../../assets/img/skills';
 
 export default [
+  
   {
-    name: 'HTML5',
-    image: images.HTML5,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
+    name: 'Vue',
+    image: 'https://hugobollon.me/img/vuejs.afab989b.png',
+    url: 'https://vuejs.org/',
   },
   {
-    name: 'CSS3',
-    image: images.CSS3,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
+    name: 'Java',
+    image: 'https://hugobollon.me/img/java.80d0ac01.png',
+    url: '#',
   },
   {
-    name: 'JavaScript',
-    image: images.JavaScript,
-    url: 'https://developer.mozilla.org/en-US/docs/Web/JavaScript',
+    name: 'Android',
+    image: 'https://hugobollon.me/img/android.08274661.png',
+    url: '#',
+  },
+  {
+    name: 'C',
+    image: 'https://hugobollon.me/img/C.93e08fc5.png',
+    url: '#',
+  },
+  {
+    name: 'IPFS',
+    image: 'https://miro.medium.com/max/1200/1*xBysnRmAn8n17ZjPMVxfmg.png',
+    url: '#',
   },
   {
     name: 'NodeJS',
@@ -22,43 +33,14 @@ export default [
     url: 'https://nodejs.org/en/',
   },
   {
-    name: 'Vue',
-    image: images.Vue,
-    url: 'https://vuejs.org/',
+    name: 'Ethereum',
+    image: 'https://cdn.worldvectorlogo.com/logos/ethereum.svg',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5',
   },
   {
-    name: 'React',
-    image: images.React,
-    url: 'https://facebook.github.io/react/',
+    name: 'Algorand',
+    image: 'https://cdn2.hubspot.net/hubfs/5068065/1logo%20black.png',
+    url: 'https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3',
   },
-  {
-    name: 'Ruby',
-    image: images.Ruby,
-    url: 'https://www.ruby-lang.org/en/',
-  },
-  {
-    name: 'Python',
-    image: images.Python,
-    url: 'https://www.python.org/',
-  },
-  {
-    name: 'Django',
-    image: images.Django,
-    url: 'https://www.djangoproject.com/',
-  },
-  {
-    name: 'Git',
-    image: images.Git,
-    url: 'https://git-scm.com/',
-  },
-  {
-    name: 'Swift',
-    image: images.Swift,
-    url: 'https://swift.org/',
-  },
-  {
-    name: 'Sketch',
-    image: images.Sketch,
-    url: 'https://www.sketchapp.com/',
-  },
+  
 ];
